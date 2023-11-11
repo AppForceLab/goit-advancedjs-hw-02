@@ -16,3 +16,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.wraper {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
