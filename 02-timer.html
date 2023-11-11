@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
     
-    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-ec808ebb.js"></script>
-    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/common-103d8e8a.css">
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-651d7991.js">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/vendor-80d0dc0f.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/common-77f4d0d0.css">
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
-
+    <div class="datetime-wrap">
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+    </div>
     <div class="timer">
       <div class="field">
         <span class="value" data-days>00</span>
